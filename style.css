@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 110vh;
 }
 
 .container {
@@ -42,9 +42,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 140px;
   border-radius: 10px;
-  height: 170px;
+  height: 140px;
 }
 
 .blocks:hover {

@@ -29,7 +29,7 @@ let counter = input.addEventListener("keyup", function (event) {
       goal.addEventListener("click", function (e) {
         e.target.children[1].innerHTML = counter++;
 
-        if (counter === 7) {
+        if (counter === 8) {
           let title = document.querySelector("h1");
           title.style.color = "green";
           title.innerHTML = "WELL DONE!!";

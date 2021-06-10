@@ -78,6 +78,7 @@ h1 {
 }
 
 .container {
+  position: relative;
   width: 80%;
   height: 60%;
   margin-bottom: 2em;
@@ -128,4 +129,67 @@ button:hover {
 
 h5 {
   margin-top: 1.5em;
+}
+
+.display {
+  display: none !important;
+}
+
+.loader {
+  font-size: 12em;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.twelve {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twelve .circle1,
+.twelve .circle2 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid orange;
+  animation: anim12 1.2s ease-in infinite;
+}
+
+.twelve .circle2 {
+  width: 60px;
+  height: 60px;
+  animation: anim12-2 1.2s ease-out infinite;
+  border: 2px solid red;
+}
+
+@keyframes anim12 {
+  100% {
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+  }
+}
+
+@keyframes anim12-2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+  }
 }

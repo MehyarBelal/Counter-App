@@ -1,7 +1,13 @@
 let input = document.querySelector("input");
-
+$(".loader").addClass("display");
 let counter = input.addEventListener("keyup", function (event) {
   if (event.keyCode === 13) {
+    $(".loader").removeClass("display");
+
+    setTimeout(function () {
+      $(".loader").addClass("display");
+    }, 500);
+
     let colours = ["#4cd137", "#e84118", "#00a8ff", "#fbc531", "#9c88ff"];
 
     let randomColour = Math.floor(Math.random() * colours.length);

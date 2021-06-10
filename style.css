@@ -29,9 +29,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 150px;
+  width: 170px;
   border-radius: 10px;
-  height: 150px;
+  height: 170px;
 }
 
 .blocks:hover {
@@ -51,4 +51,5 @@ h1 {
 
 .blocks {
   margin-left: 3em;
+  padding: 1em !important;
 }

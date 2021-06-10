@@ -23,12 +23,11 @@ let counter = input.addEventListener("keyup", function (event) {
     goals.forEach(function (colors) {
       colors.style.background = colours[randomColour];
     });
-
-    counter = 1;
     goals.forEach(function (goal) {
+      let counter = 0;
+
       goal.addEventListener("click", function (e) {
-        counter++;
-        e.target.children[1].innerHTML = counter;
+        e.target.children[1].innerHTML = counter++;
 
         if (counter >= 7) {
           let title = document.querySelector("h1");

@@ -13,7 +13,7 @@ let counter = input.addEventListener("keyup", function (event) {
         userInput +
         "</h5>" +
         "<p>" +
-        "1" +
+        "0" +
         "<p>" +
         "</div>"
     );
@@ -39,7 +39,7 @@ let counter = input.addEventListener("keyup", function (event) {
               title.style.color = "Black";
               title.innerHTML = "Goal Counter";
             }
-          }, 5000);
+          }, 2000);
         }
       });
     });

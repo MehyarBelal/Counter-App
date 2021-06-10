@@ -1,0 +1,54 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.targets {
+  display: flex;
+}
+
+.blocks {
+  transition: 150ms ease-in-out;
+  cursor: pointer;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  border-radius: 10px;
+  height: 150px;
+}
+
+.blocks:hover {
+  transform: scale(1.2);
+}
+
+.blocks p {
+  font-size: 1.5em;
+}
+h1 {
+  margin-bottom: 3em;
+}
+
+.targets {
+  padding: 5em 10em;
+}
+
+.blocks {
+  margin-left: 3em;
+}

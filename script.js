@@ -49,3 +49,7 @@ let counter = input.addEventListener("keyup", function (event) {
   event.preventDefault();
 });
 $("");
+
+$("button").click(function () {
+  location.reload();
+});

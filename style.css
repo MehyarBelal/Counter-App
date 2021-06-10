@@ -97,7 +97,9 @@ input:focus {
 }
 label {
   margin-bottom: 1em;
+  letter-spacing: 3px;
   font-size: 2.5em;
+  font-weight: 600;
 }
 
 button {

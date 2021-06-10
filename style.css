@@ -1,5 +1,7 @@
 * {
   font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -52,4 +54,18 @@ h1 {
 .blocks {
   margin-left: 3em;
   padding: 1em !important;
+}
+
+.container {
+  border: 3px solid black;
+  width: 80%;
+  height: 60%;
+  margin-bottom: 2em;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 1em 0em;
 }

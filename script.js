@@ -13,7 +13,7 @@ let counter = input.addEventListener("keyup", function (event) {
         userInput +
         "</h5>" +
         "<p>" +
-        "0" +
+        0 +
         "<p>" +
         "</div>"
     );
